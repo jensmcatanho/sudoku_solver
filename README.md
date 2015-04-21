@@ -1,7 +1,7 @@
 # Sudoku Solver
 It's a simple software written in C to solve Sudoku games using <b>backtracking</b>. The program opens a <b>.txt</b> file with the input Sudoku grid and outputs another <b>.txt</b> file with the solved grid or a message if it's impossible to solve.
 
-The input file must contain 9 rows and 9 columns and must be filled with the known numbers of the grid. If a number is not known, it's position is filled with 0 like the example below.
+The input file must contain 9 rows and 9 columns and must be filled with the known numbers of the grid. If a number is unknown, it's position is filled with 0 like the example below.
 
 <h4>Sample Input (input_grid.txt)</h4>
 	0 2 0 5 0 1 0 9 0
